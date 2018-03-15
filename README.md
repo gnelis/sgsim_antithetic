@@ -6,8 +6,5 @@ The program requires an input file, similar to every gslib program. In that file
 Copyright from the original code: 
 "Copyright (C) 1996, The Board of Trustees of the Leland Stanford Junior University.  All rights reserved.                            
                                                                       
- The programs in GSLIB are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY.  No author or distributor accepts  
- responsibility to anyone for the consequences of using them or for whether they serve any particular purpose or work at all, unless he  
- says so in writing.  Everyone is granted permission to copy, modify and redistribute the programs in GSLIB, but only under the condition 
- that this notice and the above copyright notice remain intact."
+ The programs in GSLIB are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY.  No author or distributor accepts responsibility to anyone for the consequences of using them or for whether they serve any particular purpose or work at all, unless he says so in writing.  Everyone is granted permission to copy, modify and redistribute the programs in GSLIB, but only under the condition that this notice and the above copyright notice remain intact."
  
