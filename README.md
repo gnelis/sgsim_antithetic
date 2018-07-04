@@ -10,8 +10,8 @@ The program requires an input file, similar to every gslib program. In that file
 The main difference with the original sgsim.for implemetation is located in the random number generation, where the algorithm proposed was implemented. The changes are detailed next:
 
 1. Correlation Matrix (line 1176 - 1187): The correlation matrix, based on parameter ARF is generated and stored in matrix 'cor'. A Cholesky decomposition is performed to obtain the lower triangular matrix, stored in matrix 'inf'
-2. Fixed random path (line 1230): A new random path is drawed only for the first element of the ARF-tuple, and it is fixed for the rest of the realizations of such tuple. The indicator variable counts the simulations performed in each tuple in order to draw a new random path when the tuple is complete.
-3. Random Numbers matrix (line 1237): For each node and realization, a gaussian random number is drawed using the acorni function and calling gauinv. To obtain the correlated random numbers, each tuple is multiplied with matrix 'inf'. The resulting vector of correlated random numbers is stored sequentially in variable 'rmatrix'.
+2. Fixed random path (line 1230): A new random path is drawn only for the first element of the ARF-tuple, and it is fixed for the rest of the realizations of such tuple. The indicator variable counts the simulations performed in each tuple in order to draw a new random path when the tuple is complete.
+3. Random Numbers matrix (line 1237): For each node and realization, a gaussian random number is drawn using the acorni function and calling gauinv. To obtain the correlated random numbers, each tuple is multiplied with matrix 'inf'. The resulting vector of correlated random numbers is stored sequentially in variable 'rmatrix'.
 4. Simulated Value (line 1413): When the value of each node is simulated, the acorni function was replaced with matrix 'rmatrix' where the corresponding random number for each node and realization is obtained.
 
 
